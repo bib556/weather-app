@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Forecast.css"
+import "./forecast.css"
 function Forecast({datas}) {
   if(!datas || !datas.forecast){
     return <p>data loading.....</p>
