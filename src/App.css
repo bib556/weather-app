@@ -1,0 +1,8 @@
+.mainBody{
+  min-height:100vh;
+  width:100%;
+  background-color:skyblue;
+}
+.mainBody.changed{
+  background-color:darkorchid;
+}

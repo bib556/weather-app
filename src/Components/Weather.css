@@ -1,0 +1,50 @@
+.weather{
+    background-color:white;
+    width: 80vw;
+    min-height: 30vh;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    border:1px solid white;
+    border-radius:10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.lists{
+padding-top:40px;
+
+}
+.lists ul ,li{
+padding-bottom:10px;
+font-size:22px;
+font-family:  monospace;
+position:relative;
+}
+
+.lists ul,li::before{
+    content:"🌥️  ";
+    position:absolute;
+    left:-30px;
+    top:-2px;
+   
+}
+@media (max-width:678px){
+    .weather{
+    background-color:white;
+    width: 80vw;
+    min-height: 40vh;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    border:1px solid white;
+    border-radius:10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.lists ul ,li{
+padding-bottom:10px;
+font-size:18px;
+font-family:'Times New Roman', Times, serif;
+position:relative;
+}
+}

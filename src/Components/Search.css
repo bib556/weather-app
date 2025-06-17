@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.search{
+    background-color:white;
+    width:80vw;
+    min-height:30vh;
+    margin:auto;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading{
+    text-align:center;
+    font-weight:bold;
+    padding-top:10px;
+}
+/* first div */
+
+.searchBox{
+
+    margin-top:30px;
+    height:70%;
+    width:90%;
+    margin:auto;
+    display:flex;
+   
+}
+.inputShow{
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox input{
+    height:33px;
+    width:50%;
+    border:1px solid black;
+    border-radius:4px;
+    margin-right:3px;
+    margin-left:30%;
+}
+.searchBox #btn{
+    height:26px;
+    width:55px;
+    border:1px solid black;
+    border-radius:4px;
+    cursor:pointer;
+}
+.searchBox #btn:hover{
+   background-color:antiquewhite;
+   color:black;
+}
+/* second div  */
+.dateShow{
+    background-color:white;
+    width:28%;
+    margin:auto;
+    text-align:center;
+}
+
+@media (max-width:678px){
+
+.searchBox{
+
+    margin-top:15px;
+    height:70%;
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+   
+}
+.inputShow{
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.dateShow h2{
+    padding: 0px;
+    font-size:20px;
+}
+.dateShow h3{
+    padding: 0px;
+    font-size:20px;
+}
+
+
+}
